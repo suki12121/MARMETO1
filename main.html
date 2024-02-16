@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ac42c3b1f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-bg">
+        <h1 class="main-heading">NEW ARRAIVALS</h1>
+
+        <div class="header-icon-bg">
+          <div class="header-icon-bg1">
+            <i class="fa-solid fa-circle-info icon"></i>
+            <i class="fa-solid fa-circle-half-stroke icon"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-person icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="search-icon-bg">
+        <div class="search-icon-bg1">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter search term..."
+            class="search-bg"
+          />
+          <button onclick="search()">
+            <i class="fa-solid fa-magnifying-glass icon1"></i>
+          </button>
+        </div>
+        <div class="insta-bg">
+          <h3 class="heading1">Instagram---------------</h3>
+          <i class="fa-brands fa-instagram icon"></i>
+        </div>
+      </div>
+      <div class="main-results">
+        <div>
+          <h3 class="heading1">FABRIC THAT SPEAKS</h3>
+          <div>
+            <button class="button-bg">View All</button>
+            <button class="button-bg1">Watch Here</button>
+          </div>
+        </div>
+        <div id="searchResults" class="result-container"></div>
+        <div>
+          <h3 class="heading1">
+            "Fashion is not about clothes it's about looks"
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
